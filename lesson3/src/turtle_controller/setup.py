@@ -22,11 +22,16 @@ setup(
             'pytest',
         ],
     },
+    # 注册写好的包为可执行程序
     entry_points={
         'console_scripts': [
             'turtle_circle = turtle_controller.turtle_circle:main',
             'turtle_pose_sub = turtle_controller.turtle_pose_sub:main',
             'turtle_follower = turtle_controller.turtle_follower:main',
+            'clear_client = turtle_controller.clear_client:main',
+            'teleport_client = turtle_controller.teleport_client:main',
+            'follow_path_service = turtle_controller.follow_path_service:main',
+            'follow_path_client = turtle_controller.follow_path_client:main',
         ],
     },
 )
