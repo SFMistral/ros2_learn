@@ -1,0 +1,11 @@
+# Goal：一串目标点 + 速度
+geometry_msgs/Pose2D[] poses
+float32 speed
+---
+# Result：是否成功
+bool success
+string message
+---
+# Feedback：当前正在走到第几个点
+int32 current_index
+geometry_msgs/Pose2D current_target

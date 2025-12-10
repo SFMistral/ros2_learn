@@ -32,6 +32,9 @@ setup(
             'teleport_client = turtle_controller.teleport_client:main',
             'follow_path_service = turtle_controller.follow_path_service:main',
             'follow_path_client = turtle_controller.follow_path_client:main',
+            'rotate_client = turtle_controller.rotate_client:main',
+            'move_path_server = turtle_controller.move_path_server:main',
+            'move_path_client = turtle_controller.move_path_client:main',
         ],
     },
 )
